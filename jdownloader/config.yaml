@@ -1,6 +1,6 @@
 name: "JDownloader"
 description: "A JDownloader inside Homeassistant"
-version: "0.3.1"
+version: "0.3.2"
 slug: "jdownloader"
 #image: "jlesage/jdownloader-2"
 init: false
@@ -12,6 +12,8 @@ arch:
   - i386
 ports:
   5800/tcp: 5800
+ports_description:
+  5800/tcp: "Web Interface"
 options:
   MYJDOWNLOADER_EMAIL: ""
   MYJDOWNLOADER_PASSWORD: ""
@@ -21,3 +23,4 @@ schema:
   MYJDOWNLOADER_PASSWORD: str
   MYJDOWNLOADER_DEVICE_NAME: str
 webui: http://[HOST]:[PORT:5800]
+panel_icon: mdi:download
