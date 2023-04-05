@@ -10,7 +10,6 @@ arch:
   - armhf
   - armv7
   - i386
-startup: before
-ports:
-  5800/tcp: 5800
-webui: "https://my.jdownloader.org"
+#ports:
+#  5800/tcp: 5800
+options:
