@@ -1,6 +1,6 @@
 name: "JDownloader"
 description: "A JDownloader inside Homeassistant"
-version: "0.2.0"
+version: "0.3.0"
 slug: "jdownloader"
 #image: "jlesage/jdownloader-2"
 init: false
