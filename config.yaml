@@ -1,0 +1,16 @@
+name: "JDownloader"
+description: "A JDownloader inside Homeassistant"
+version: "0.1.0"
+slug: "jdownloader"
+image: jlesage/jdownloader-2
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+startup: before
+ports:
+  5800/tcp: 5800
+webui: "https://my.jdownloader.org"
