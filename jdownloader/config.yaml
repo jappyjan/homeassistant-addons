@@ -24,3 +24,4 @@ schema:
   MYJDOWNLOADER_DEVICE_NAME: str
 webui: http://[HOST]:[PORT:5800]
 panel_icon: mdi:download
+startup: system
