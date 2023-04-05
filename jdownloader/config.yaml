@@ -2,7 +2,7 @@ name: "JDownloader"
 description: "A JDownloader inside Homeassistant"
 version: "0.1.0"
 slug: "jdownloader"
-image: "jlesage/jdownloader-2"
+#image: "jlesage/jdownloader-2"
 init: false
 arch:
   - aarch64

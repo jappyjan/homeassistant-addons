@@ -1,5 +1,4 @@
-ARG BUILD_FROM
-FROM $BUILD_FROM
+FROM jlesage/jdownloader-2
 
 ENV KEEP_APP_RUNNING=1
 
