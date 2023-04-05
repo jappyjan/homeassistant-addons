@@ -3,3 +3,4 @@ addons:
   jdownloader:
     repository: jappyjan/homeassistant-addons
     target: jdownloader
+    image: jlesage/jdownloader-2
