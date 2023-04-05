@@ -1,0 +1,5 @@
+channel: stable
+addons:
+  jdownloader:
+    repository: jappyjan/homeassistant-addons
+    target: jdownloader
