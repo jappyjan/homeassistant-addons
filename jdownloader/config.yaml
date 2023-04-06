@@ -25,3 +25,9 @@ schema:
 webui: http://[HOST]:[PORT:5800]
 panel_icon: mdi:download
 startup: system
+environment:
+  MYJDOWNLOADER_EMAIL: "${MYJDOWNLOADER_EMAIL}"
+  MYJDOWNLOADER_PASSWORD: "${MYJDOWNLOADER_PASSWORD}"
+  MYJDOWNLOADER_DEVICE_NAME: "${MYJDOWNLOADER_DEVICE_NAME}"
+map:
+  media:rw
