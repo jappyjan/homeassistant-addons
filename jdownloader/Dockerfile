@@ -13,11 +13,7 @@ ENV MYJDOWNLOADER_DEVICE_NAME=$MYJDOWNLOADER_DEVICE_NAME
 
 ENV JDOWNLOADER_HEADLESS=0
 
-RUN mkdir /media/jdownloader/config -p
 RUN mkdir /media/jdownloader/downloads -p
 
-#symlink /data/config to /config
-RUN ln -s /media/jdownloader/config /config
-
 #symlink /data/downloads to /downloads
-RUN ln -s /media/jdownloader/downloads /downloads
+RUN ln -s /media/jdownloader/downloads /output
