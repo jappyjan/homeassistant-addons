@@ -12,3 +12,12 @@ ARG MYJDOWNLOADER_DEVICE_NAME
 ENV MYJDOWNLOADER_DEVICE_NAME=$MYJDOWNLOADER_DEVICE_NAME
 
 ENV JDOWNLOADER_HEADLESS=0
+
+RUN mkdir /data/config
+RUN mkdir /data/downloads
+
+#symlink /data/config to /config
+RUN ln -s /data/config /config
+
+#symlink /data/downloads to /downloads
+RUN ln -s /data/downloads /downloads
